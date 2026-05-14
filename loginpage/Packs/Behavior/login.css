@@ -18,7 +18,8 @@ body {
 img {
   position: absolute;
   top: 20px;
-  right: 49%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 80px;
   height: 80px;
   object-fit: cover;

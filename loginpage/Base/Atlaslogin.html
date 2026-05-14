@@ -9,7 +9,9 @@
 </head>
 <body>
     <!-- Logo -->
-     <img src="../Packs/Resource/Imageorganizer/Icons/atlasicon.png" alt="">
+     <a href="../../landingpage/Base/Atlashub.html">
+      <img src="../Packs/Resource/Imageorganizer/Icons/atlasicon.png" alt="Logo da empresa AtlasBank">
+    </a>
   <div class="container">
     <div class="logo">Atlas Bank</div>
     <form>
@@ -20,11 +22,10 @@
 
       <div class="input-group">
         <label>Senha</label>
-        <input type="password" placeholder="Enter your password" required />
+        <input type="password" placeholder="Enter your password" required id="password"/>
       </div>
 
-      <button class="btn" type="submit">Login</button>
-
+      <button class="btn" type="button" id="acess" onclick="logar()">Login</button>
       <div class="links">
         <a href="#">Esqueceu sua senha?</a>
         <a href="#">Cadastre-se</a>
@@ -32,4 +33,5 @@
     </form>
   </div>
 </body>
+<script src="../Packs/Behavior/login.js"></script>
 </html>

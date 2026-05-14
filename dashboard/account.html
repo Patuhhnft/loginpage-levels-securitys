@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atlas - Conta</title>
+  <link rel="stylesheet" href="account.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="topbar">
+    <h1 class="logo">ATLAS</h1>
+    <div class="user-info">Olá, Juliano 👋</div>
+  </header>
+
+  <!-- CONTEÚDO -->
+  <main class="container">
+    <!-- SALDO -->
+    <section class="card saldo-card">
+      <div>
+        <p class="label">Saldo disponível</p>
+        <h2 id="saldo" class="valor">R$ 5.000,00</h2>
+      </div>
+
+      <button class="btn-olho" onclick="toggleSaldo()">👁</button>
+    </section>
+
+    <!-- AÇÕES -->
+    <section class="acoes">
+      <button class="acao">
+        <span>💸</span>
+        <p>Transferir</p>
+      </button>
+
+      <button class="acao">
+        <span>📄</span>
+        <p>Pagar</p>
+      </button>
+
+      <button class="acao">
+        <span>⬆️</span>
+        <p>Depositar</p>
+      </button>
+    </section>
+
+    <!-- EXTRATO -->
+    <section class="card extrato">
+      <h3>Últimas transações</h3>
+
+      <div class="item">
+        <div>
+          <strong>Netflix</strong>
+          <p>Assinatura</p>
+        </div>
+        <span class="negativo">-R$ 39,90</span>
+      </div>
+
+      <div class="item">
+        <div>
+          <strong>Salário</strong>
+          <p>Empresa</p>
+        </div>
+        <span class="positivo">+R$ 3.000,00</span>
+      </div>
+    </section>
+  </main>
+  <script src="account.js"></script>
+</body>
+</html>
